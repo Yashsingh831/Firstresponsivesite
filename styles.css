@@ -1,0 +1,118 @@
+#title {
+  background-color: #ff4c68;
+  padding-bottom: 10%;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2 {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+p {
+  color: grey;
+}
+.headingg{
+  text-align: left;
+}
+
+
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+#features {
+  padding: 7% 15%;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.features-1 {
+
+  padding: 5%;
+}
+
+.icon {
+  color: #EF8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #FF4C68;
+}
+
+#testimonials {
+
+  background-color: #ef8172;
+  color: white;
+}
+
+.testimonialimg {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+
+  padding-bottom: 3%;
+}
+
+.press-image {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+
+}
+
+.title-img {
+  position: absolute;
+  width: 20%;
+  right: 20%;
+  transform: rotate(25deg);
+  padding-top: 3%;
+}
+
+#cta {
+
+  background-color: #ff4c68;
+  color: white;
+  padding: 130px;
+}
+
+.cta-heading {
+  font-size: 40px;
+
+}
+
+#footer {
+  padding: 60px;
+}
+
+.social {
+  margin: 5px;
+}
+
+@media (max-width:1028px) {
+  .title-img {
+    position: static;
+    transform: rotate(0);
+    text-align: center;
+  }
